@@ -13,7 +13,7 @@
  *
  * @ingroup theme_preprocess
  */
-function fleming_preprocess_page(&$variables) {
+function ekc_bootstrap_preprocess_page(&$variables) {
     // Set column widths
     if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
         $variables['content_column_class'] = ' class="col-sm-6 col-sm-pull-3"';

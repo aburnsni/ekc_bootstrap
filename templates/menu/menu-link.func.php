@@ -4,7 +4,7 @@
  * Stub file for bootstrap_menu_link() and suggestion(s).
  */
 
-function fleming_menu_link__main_menu(array $variables) {
+function ekc_bootstrap_menu_link__main_menu(array $variables) {
     $element = $variables['element'];
     $sub_menu = '';
 
@@ -44,7 +44,7 @@ function fleming_menu_link__main_menu(array $variables) {
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
-function fleming_menu_link__menu_block__1(array $variables) {
+function ekc_bootstrap_menu_link__menu_block__1(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
 
@@ -82,14 +82,14 @@ function fleming_menu_link__menu_block__1(array $variables) {
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
 
-function fleming_menu_link__menu_block__2(array $variables) {
+function ekc_bootstrap_menu_link__menu_block__2(array $variables) {
     $element = $variables['element'];
     $element['#attributes']['class'][] = 'list-group-item';
     $output = l($element['#title'], $element['#href'], array('attributes' => $element['#attributes']));
     return $output . "\n";
 }
 
-function fleming_menu_link__menu_block__3(array $variables) {
+function ekc_bootstrap_menu_link__menu_block__3(array $variables) {
     $element = $variables['element'];
     $element['#attributes']['class'][] = 'list-group-item';
     $output = l($element['#title'], $element['#href'], array('attributes' => $element['#attributes']));

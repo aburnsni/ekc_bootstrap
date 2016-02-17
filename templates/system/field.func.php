@@ -10,7 +10,7 @@
 /**
  * Implements theme_field__field_tags().
  */
-function fleming_field__field_department(&$variables) {
+function ekc_bootstrap_field__field_department(&$variables) {
   $output = '';
 
   // Render the label if it's not hidden.

@@ -13,7 +13,7 @@
  *
  * @ingroup theme_preprocess
  */
-function fleming_preprocess_image(&$variables) {
+function ekc_bootstrap_preprocess_image(&$variables) {
 	// Add img-circle class to Video/Gallery Thumbnails
     if(isset($variables['style_name'])) {
         if($variables['style_name'] == 'gallery_cover_small') {

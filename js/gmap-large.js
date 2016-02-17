@@ -34,7 +34,7 @@ function initialize() {
             },
             attribution: {
                 source: 'Fleming Fulton School',
-                webUrl: 'http://www.flemingfulton.org.uk'
+                webUrl: 'http://www.ekc_bootstrapfulton.org.uk'
             }
         },
 
@@ -50,7 +50,7 @@ function initialize() {
         }),
 
         marker = new google.maps.Marker({
-            icon: '/sites/all/themes/fleming/logo.png',
+            icon: '/sites/all/themes/ekc_bootstrap/logo.png',
             position: saveWidgetOptions.place.location,
             map: map,
             title: 'Fleming Fulton School',

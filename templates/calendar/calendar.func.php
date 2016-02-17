@@ -5,7 +5,7 @@
  */
 
 // Override calendar title display
-function fleming_date_nav_title($params) {
+function ekc_bootstrap_date_nav_title($params) {
     $granularity = $params['granularity'];
     $view = $params['view'];
     $date_info = $view->date_info;

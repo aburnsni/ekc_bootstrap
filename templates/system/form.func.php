@@ -4,7 +4,7 @@
  * Stub file for bootstrap_form_alter()
  */
 
-function fleming_form_alter(&$form, &$form_state, $form_id) {
+function ekc_bootstrap_form_alter(&$form, &$form_state, $form_id) {
 //  print '<pre>';
 //    print_r($form);
 //    print '</pre>';

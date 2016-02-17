@@ -7,33 +7,33 @@
 /**
  * Add navbar classes to menu tree
  */
-function fleming_menu_tree__main_menu($variables) {
+function ekc_bootstrap_menu_tree__main_menu($variables) {
        return '<ul class="nav navbar-nav">' . $variables['tree'] . '</ul>';
 }
 
 /**
  * Add group classes to departments submnenu
  */
-function fleming_menu_tree__menu_block__1($variables) {
+function ekc_bootstrap_menu_tree__menu_block__1($variables) {
        return '<ul class="nav nav-pills nav-stacked">' . $variables['tree'] . '</ul>';
 }
 
 /**
  * Add group classes to parents menublock
  */
-function fleming_menu_tree__menu_block__2($variables) {
+function ekc_bootstrap_menu_tree__menu_block__2($variables) {
     return '<div class="list-group">' . $variables['tree'] . '</div>';
 }
 /**
  * Add group classes to "Add Content" menublock
  */
-function fleming_menu_tree__menu_block__3($variables) {
+function ekc_bootstrap_menu_tree__menu_block__3($variables) {
     return '<div class="list-group">' . $variables['tree'] . '</div>';
 }
 
 /**
  * Add group classes to User menublock
  */
-function fleming_menu_tree__user_menu($variables) {
+function ekc_bootstrap_menu_tree__user_menu($variables) {
     return '<ul class="nav nav-pills nav-stacked">' . $variables['tree'] . '</ul>';
 }
