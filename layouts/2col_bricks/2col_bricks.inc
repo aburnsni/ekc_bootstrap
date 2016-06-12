@@ -3,7 +3,7 @@
 /**
  * Implements hook_panels_layouts()
  */
-function fleming_2col_bricks_panels_layouts() {
+function ekc_bootstrap_2col_bricks_panels_layouts() {
   $items['2col_bricks'] = array(
     'title' => t('2 column bricks'),
     'category' => t('Custom Layouts'),

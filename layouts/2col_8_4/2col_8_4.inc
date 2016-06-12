@@ -3,7 +3,7 @@
 /**
  * Implements hook_panels_layouts()
  */
-function fleming_2col_8_4_panels_layouts() {
+function ekc_bootstrap_2col_8_4_panels_layouts() {
   $items['2col_8_4'] = array(
     'title' => t('2 column 8 4'),
     'category' => t('Custom Layouts'),

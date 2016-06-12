@@ -3,13 +3,9 @@
     <div class="navbar-header">
       <?php if ($logo): ?>
       <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Return to Homepage'); ?>" />
-      </a>
+<!--        <img height="35px" src="<?php print $logo; ?>" alt="<?php print t('Return to Homepage'); ?>" />
+-->      </a>
       <?php endif; ?>
-
-      <?php if (!empty($site_name)): ?>
-       <a class="name navbar-brand" href="#<?php //print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-     <?php endif; ?>
 
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-navbar-collapse">
@@ -44,12 +40,20 @@
 <div class="main-container container">
 
   <header role="banner" id="page-header">
+<div class="pull-left">
+    <?php if (!empty($logo)): ?>
+      <div class="logo"><img src="<?php print $logo; ?>"></div>
+    <?php endif; ?>
+</div>
+<div class="">
+    <?php if (!empty($site_name)): ?>
+      <div><h1><?php print $site_name; ?></h1></div>
+    <?php endif; ?>
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
     <?php endif; ?>
-
+</div>
     <?php print render($page['header']); ?>
-    <div><h1>FLEMING FULTON SCHOOL</h1></div>
   </header> <!-- /#page-header -->
 
   <div class="row">

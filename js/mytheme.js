@@ -1,4 +1,5 @@
 /*global $, jQuery, alert*/
+/*
 jQuery(function ($) {
     "use strict";
 
@@ -52,3 +53,4 @@ jQuery(function ($) {
         $('#masquerade-block-1 label').addClass("sr-only");
     });
 });
+*/
